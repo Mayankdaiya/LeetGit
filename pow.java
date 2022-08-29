@@ -1,22 +1,5 @@
 class Solution {
     public double myPow(double x, int n) {
-        // if(n==0 || x==1){
-        // return 1;
-        // }
-        // else if(x==0){
-        // return 0;
-        // }
-        // double p=x, q=n;
-        // if(q<0){
-        // q=-1*q;
-        // p=1/x;
-        // }
-        // double res=1;
-        // while(q>0){
-        // res=res*p;
-        // q--;
-        // }
-        // return res;
         if (n == 0) {
             return 1;
         }
