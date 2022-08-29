@@ -4,6 +4,5 @@ class Solution {
             return num;
         }
         return addDigits(num / 10 + num % 10);
-
     }
 }
