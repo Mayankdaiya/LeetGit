@@ -11,7 +11,7 @@ public class BadVersion {
 		while (lo <= hi) {
 			int mid = lo + (hi - lo) / 2;
 			if (isBadVersion(mid) == true) {
-				ans = mid;
+				ans = mid;	
 				hi = mid - 1;
 			} else {
 				lo = mid + 1;
