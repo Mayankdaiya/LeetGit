@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class AddIntToArray {
     public List<Integer> addToArrayForm(int[] num, int k) {
         int n = num.length;
