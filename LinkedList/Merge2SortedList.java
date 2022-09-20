@@ -16,7 +16,6 @@ class Merge2SortedList {
         if(list1 != null) {
             node.next = list1;
         }
-
         if(list2 != null) {
             node.next = list2;
         }
