@@ -21,7 +21,6 @@ class RemoveNthNodeFromEnd {
         }
         ListNode c=temp.next;
         temp.next=c.next;
-
         return head;
 
     }
