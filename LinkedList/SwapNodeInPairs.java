@@ -18,5 +18,6 @@ class SwapNodeInPairs {
             }
         }
         return n.next;
+        
     }
 }
