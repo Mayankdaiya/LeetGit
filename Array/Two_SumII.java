@@ -16,7 +16,6 @@ class Two_SumII {
 			return new int[] { i + 1, j + 1 };
 		}
 	}
-
 	return null;
     }
 }
