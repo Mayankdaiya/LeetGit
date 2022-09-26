@@ -12,4 +12,5 @@ class 1st_uniq_char {
         }
         return -1;
     }
+    
 }
