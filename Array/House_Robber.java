@@ -9,6 +9,5 @@ class House_Robber {
             currentMax = Math.max(sum, currentMax);
         }
         return currentMax;
-
     }
 }
