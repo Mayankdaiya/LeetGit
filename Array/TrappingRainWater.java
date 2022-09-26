@@ -17,5 +17,4 @@ class  TrappingRainWater{
 		}
 		return sum;
     }
-    
 }
