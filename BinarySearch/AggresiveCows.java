@@ -17,9 +17,7 @@ public class AggresiveCows {
 			}
 			Arrays.sort(stalls);
 			System.out.println(largestminimumdistance(stalls, noc));
-
 		}
-
 	}
 
 	public static int largestminimumdistance(int[] stalls, int noc) {
