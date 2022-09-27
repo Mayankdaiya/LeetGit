@@ -19,6 +19,7 @@ class First&LastPositionofElement {
                 i=mid;
                 break;
             }
+            
         }
         j=i;
         while(j<len && nums[j]==target){
