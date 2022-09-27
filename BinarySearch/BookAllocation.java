@@ -31,7 +31,6 @@ public class BookAllocation {
 		return ans;
 
 	}
-
 	private static boolean isitpossible(int[] page, int mid, int nos) {
 		// TODO Auto-generated method stub
 		int s = 1;
