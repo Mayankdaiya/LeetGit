@@ -6,7 +6,6 @@ public class SquareRoot {
 		System.out.println(root(n));
 
 	}
-
 	public static int root(int n) {
 		int lo = 1;
 		int hi = n;
