@@ -10,7 +10,6 @@ class GenrateParenthesis {
         if(r<l){
             print_ways(n,ans+')',l,r+1,list);
         }
-
     }
 
     public List<String> generateParenthesis(int n) {
