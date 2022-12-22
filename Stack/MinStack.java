@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class MinStack {
     Stack<Integer> st=new Stack<>();
     Stack<Integer> min=new Stack<>();
