@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Solution {
     public int[] minOperations(String b) {
         Stack<Integer> st=new Stack<>();
