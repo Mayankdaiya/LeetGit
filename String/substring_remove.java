@@ -10,8 +10,7 @@ class Solution {
                 s1=s1.substring(0,i)+s1.substring(i+s2.length());
                 i=-1;
             }
-        }
-        
+        }  
         return s1;
     }
 }
