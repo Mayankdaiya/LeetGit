@@ -2,6 +2,7 @@ class Solution {
     public String removeOccurrences(String s, String part) {
         return removeSubstring(s,part);
     }
+    
     public static String removeSubstring(String s1,String s2){
         for(int i=0;i<=(s1.length()-s2.length());i++){
             String str=s1.substring(i);
