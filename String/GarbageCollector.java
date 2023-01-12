@@ -25,6 +25,5 @@ public class Solution {
             } 
         }
         return time;
-        
     }
 } 
