@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int partitionString(String s) {
         int arr[]=new int[26];
@@ -11,6 +13,5 @@ class Solution {
             else arr[s.charAt(i)-'a']++;
         }
         return c+1;
-        
     }
 }
