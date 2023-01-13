@@ -11,5 +11,6 @@ class Solution {
             else arr[s.charAt(i)-'a']++;
         }
         return c+1;
+        
     }
 }
