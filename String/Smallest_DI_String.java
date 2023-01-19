@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 class Solution {
     public String smallestNumber(String pattern) {
         Stack<Integer> st=new Stack<>();
