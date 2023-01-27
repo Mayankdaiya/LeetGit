@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class Solution {
     public int[] sortEvenOdd(int[] nums) {
         ArrayList<Integer> list1=new ArrayList<>();
