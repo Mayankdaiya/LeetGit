@@ -1,4 +1,5 @@
 class Solution {
+    
     public boolean checkStraightLine(int[][] coordinates) {
         int s1=coordinates[1][0]-coordinates[0][0];
         int s2=coordinates[1][1]-coordinates[0][1];
