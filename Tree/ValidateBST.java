@@ -2,9 +2,9 @@ class BSTPair{
     Boolean isBST=true;
     long min=Long.MAX_VALUE;
     long max=Long.MIN_VALUE;
- }
+}
 class Solution {
-    
+
     public class TreeNode {
         int val;
         TreeNode left;
