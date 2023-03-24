@@ -1,4 +1,6 @@
-public class MakeParenthesisValid 
+import java.util.Stack;
+
+public class MakeParenthesisValid{ 
     public int minAddToMakeValid(String s) {
         Stack<Character> st=new Stack<>();
         for(int i=0;i<s.length();i++){
@@ -11,5 +13,5 @@ public class MakeParenthesisValid
             }
         }
         return st.size();
+    }
 }
-
