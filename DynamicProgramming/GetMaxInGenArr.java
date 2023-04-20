@@ -1,4 +1,6 @@
-public class GetMaxInGenArr {
+package DynamicProgramming;
+
+class GetMaxInGenArr {
     public int getMaximumGenerated(int n) {
         if(n==0 || n==1) return n;
         int dp[]=new int[n+1];
