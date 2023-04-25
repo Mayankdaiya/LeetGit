@@ -1,3 +1,6 @@
+package DynamicProgramming;
+import java.util.Arrays;
+
 public class HouseRobber {
     public int rob(int[] nums) {
         int dp[]=new int[nums.length+1];
