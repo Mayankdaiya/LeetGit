@@ -1,4 +1,4 @@
-package DynamicProgramming;
+
 
 public class MinCostToClimbStairs {
     public int minCostClimbingStairs(int[] cost) {
