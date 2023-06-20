@@ -1,5 +1,5 @@
 package DynamicProgramming;
-import java.util.Arrays;
+import java.util.*;
 
 public class HouseRobber {
     public int rob(int[] nums) {
